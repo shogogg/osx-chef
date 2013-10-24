@@ -1,0 +1,18 @@
+{
+
+  "run_list": [
+    "homebrew",
+    "brew-packages"
+  ],
+
+  "brew_packages": [
+    "git",
+    "giter8",
+    "mobile-shell",
+    "phantomjs",
+    "play",
+    "rename",
+    "scala"
+  ]
+
+}
