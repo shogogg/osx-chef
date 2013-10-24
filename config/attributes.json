@@ -9,6 +9,7 @@
     "osx-apps::iterm2",
     "osx-apps::libreoffice",
     "osx-apps::sourcetree",
+    "osx-apps::virtualbox",
 
     "homebrew",
     "brew-packages"
