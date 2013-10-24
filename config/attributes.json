@@ -8,6 +8,7 @@
     "osx-apps::intellij_community",
     "osx-apps::iterm2",
     "osx-apps::libreoffice",
+    "osx-apps::sourcetree",
 
     "homebrew",
     "brew-packages"
