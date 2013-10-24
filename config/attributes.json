@@ -3,6 +3,7 @@
   "run_list": [
 
     "osx-apps::alfred2",
+    "osx-apps::chrome",
 
     "homebrew",
     "brew-packages"
