@@ -1,0 +1,1 @@
+default[:brew_packages] = []
