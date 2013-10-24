@@ -4,6 +4,7 @@
 
     "osx-apps::alfred2",
     "osx-apps::chrome",
+    "osx-apps::dropbox",
 
     "homebrew",
     "brew-packages"
