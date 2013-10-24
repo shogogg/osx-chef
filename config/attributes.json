@@ -1,6 +1,8 @@
 {
-
+  
   "run_list": [
+
+    "osx-settings::dock",
 
     "osx-apps::alfred2",
     "osx-apps::chrome",
