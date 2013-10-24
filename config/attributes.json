@@ -8,6 +8,7 @@
     "osx-apps::intellij_community",
     "osx-apps::iterm2",
     "osx-apps::libreoffice",
+    "osx-apps::nodebrew",
     "osx-apps::sourcetree",
     "osx-apps::virtualbox",
     "osx-apps::vagrant",
@@ -15,6 +16,10 @@
     "homebrew",
     "brew-packages"
 
+  ],
+
+  "node_versions": [
+    "v0.10.21"
   ],
 
   "brew_packages": [
