@@ -10,6 +10,7 @@
     "osx-apps::libreoffice",
     "osx-apps::sourcetree",
     "osx-apps::virtualbox",
+    "osx-apps::vagrant",
 
     "homebrew",
     "brew-packages"
