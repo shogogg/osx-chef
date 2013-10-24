@@ -7,6 +7,7 @@
     "osx-apps::dropbox",
     "osx-apps::intellij_community",
     "osx-apps::iterm2",
+    "osx-apps::libreoffice",
 
     "homebrew",
     "brew-packages"
