@@ -6,6 +6,7 @@
     "osx-apps::chrome",
     "osx-apps::dropbox",
     "osx-apps::intellij_community",
+    "osx-apps::iterm2",
 
     "homebrew",
     "brew-packages"
