@@ -1,8 +1,12 @@
 {
 
   "run_list": [
+
+    "osx-apps::alfred2",
+
     "homebrew",
     "brew-packages"
+
   ],
 
   "brew_packages": [
