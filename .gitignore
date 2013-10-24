@@ -1,0 +1,4 @@
+/.chef
+/.ruby-version
+/cookbooks
+.DS_Store
