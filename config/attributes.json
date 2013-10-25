@@ -5,6 +5,7 @@
     "osx-settings::dock",
 
     "osx-apps::alfred2",
+    "osx-apps::android",
     "osx-apps::chrome",
     "osx-apps::dropbox",
     "osx-apps::intellij_community",

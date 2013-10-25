@@ -3,21 +3,6 @@
 BASE_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE}")"; pwd)"
 cd "$BASE_DIR"
 
-if [ ! -d "/usr/local" ]; then
-  echo "Creating directory: /var/chef"
-  echo "-----------------------------"
-  sudo mkdir /usr/local
-  echo ""
-fi  
-
-if [ ! -d "/var/chef" ]; then
-  echo "Creating directory: /var/chef"
-  echo "-----------------------------"
-  sudo mkdir /var/chef
-  sudo chown $USER:staff /var/chef
-  echo ""
-fi
-
 GEM="$(which gem)"
 if [ -z "$GEM" ]; then
   echo "This script requires ruby and gem. Please install them."
@@ -49,6 +34,16 @@ if [ -z "$BERKS" ]; then
   echo ""
   BERKS="$(which berks)"
 fi
+
+for DIR in "/usr/local" "/opt/local" "/var/chef"; do
+  if [ ! -d "$DIR" ]; then
+    echo "Creating directory: $DIR"
+    echo "-----------------------------"
+    sudo mkdir -p "$DIR"
+    sudo chown $USER:staff "$DIR"
+    echo ""
+  fi
+done
 
 echo "Installing cookbooks"
 echo "--------------------"
