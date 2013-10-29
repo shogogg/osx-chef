@@ -32,7 +32,8 @@
     "phantomjs",
     "play",
     "rename",
-    "scala"
+    "scala",
+    "wget"
   ]
 
 }
